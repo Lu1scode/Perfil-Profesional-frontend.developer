@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: grey ;
+}
+/* Acá voy a poner estios generales */
+
+Image-container {
+    display: flex;
+}
+
+.Image-container img {
+    width: 100%;
+}
+
+/* Acá tengo los estilos del header */
+
+header {
+    background: #1652b48c;
+    padding: 10px 50px;
+}
+
+#Logo {
+    width: 50px;
+}
+
+#Logo img{
+    border-radius: 100%;
+    border-radius: white;
+}
+
+/* Acá tengo los estilos del hero container */
+
+#Hero #computadora{
+    display:inline-block;
+    width: 100%;
+}
+
+#Hero {
+    position: relative;
+}
+
+#Hero .Container-information {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: whitesmoke;
+    padding: 50px;
+
+}
+
+#Hero .Container-information #Foto {
+    width: 200px;
+    border-color: #1652b48c;
+}
+
+#Hero .Container-information #Foto img  {
+    border-radius: 100%;
+    padding: 10px;
+    border-radius: 20cap;
+
+}
+
+#Hero .Container-information .Information {
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 10px;
+    width: calc(100 - 200px);
+    
+}
+
+#Hero .Container-information .Information span{
+    display: inline-block;
+    color: gold;
+    margin-bottom: 70px;
+}
+
+/* Estilos del main */
+
+main {
+padding: 100px;
+}
+
+main .Social-Icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    list-style: none;
+}
+
+main .Social-Icons li {
+    margin-left: 10px;
+}
+
+main .Social-Icon {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 25%;
+    width: 60px;
+    height: 60px;
+}
+
+main .Social-Icon2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 5px;
+    border-radius: 0%;
+    width: 70px;
+    height: 70px;
+    margin-top: -5px;
+}
+
+main .Social-Icons #LinkedIn {
+    background: #0077b0;
+}
+
+main .Social-Icons #GitHub {
+    background:  #23272d;
+}
+
+main .Social-Icons #Platzi {
+    background: #121f3d;    
+}
+
+main .Social-Icons #Twitter {
+    background: #1da1f2;
+}
+
+main .Social-Icons #Instagram {
+    width: auto;
+}
